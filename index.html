@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="styles.css">
+   	<title>Documentation</title>
+</head>
+<body>
+	<nav  id="navbar">
+		<header id="h1" >Documentation </header>
+
+		<ul>
+         <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+         <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+         <li><a class="nav-link" href="#Styles">Styles</a></li>
+         <li><a class="nav-link" href="#Position_Property">Position Property</a></li>
+         <li><a class="nav-link" href="#Position_Static">Position Static</a></li>
+         <li><a class="nav-link" href="#Position_Relative">Position Relative</a></li>
+         <li><a class="nav-link" href="#Position_Fixed">Position Fixed</a></li>
+         <li><a class="nav-link" href="#Position_Absolute">Position Absolute</a></li>
+         <li><a class="nav-link" href="#Position_Sticky">Position Sticky</a></li>
+         <li><a class="nav-link" href="#Display_Property">Display Property</a></li>
+         <li><a class="nav-link" href="#Display_Block">Display Block</a></li>
+         <li><a class="nav-link" href="#Display_Flex">Display Flex</a></li>
+         <li><a class="nav-link" href="#Display_Grid">Display Grid</a></li>
+         <li><a class="nav-link" href="#Media_Queries">Media Queries</a></li>
+         <li><a class="nav-link" href="#Reference">Reference</a></li>
+</ul>
+
+</nav>
+
+<legend></legend>
+
+<main id="main-doc">
+
+<section class="main-section" id="Introduction">
+	<header>Introduction</header>
+<code>
+	<p>If you like the world of web design or are curious to start in this sector, you have probably already heard the term CSS. It is a technology used to provide visual and aesthetic qualities to a web page. If you have never touched this subject, you will see that it is an analytical, logical and practically mathematical way of creating web pages, but thanks to it we can simplify the creation of pages and achieve exactly what we are looking for.
+
+The learning curve of CSS is usually simple (it is easy to learn to do things, although difficult to master), although it is also true that it can be difficult to adapt if you have never programmed (or are totally unfamiliar with these topics), but as you commit errors and as you practice, your ability to write CSS code improves progressively, allowing us to advance at an ever faster pace.</p>
+</code>
+</section>
+
+<section class="main-section" id="What_you_should_already_know">
+	<header>What you should already know</header>
+<code>
+	<p>Before you begin, you need to be clear about a key concept: a web page is really a text document. HTML code is written in this document, with which the content of a website is created. On the other hand, there is the CSS code, which together with the HTML code allows you to give a page its shape, color, position (and other visual characteristics).
+
+In short, it is a language like English or German that web browsers like Chrome or Firefox know and can understand. Our goal as web designers and programmers is precisely that: to learn the language.</p>
+<p>
+The acronym CSS (Cascading Style Sheets) stands for "Cascading Style Sheets" and is based on a simple but very powerful concept: apply styles (colors, shapes, margins, etc...) to one or more documents (generally HTML documents, web pages) massively.
+
+It is called cascading styles because they are applied from top to bottom (following a pattern called inheritance that we will discuss later) and if there is ambiguity, a series of rules are followed to resolve it.</p>
+</code>
+</section>
+
+<section class="main-section" id="Styles">
+	<header>Styles</header>
+<code>
+	<p>Here, we will demonstrate some commonly used CSS properties. You will learn more about them later.</p>
+<ul>
+    <li>The CSS color property defines the text color to be used.</li>
+
+    <li>The CSS font-family property defines the font to be used.</li>
+
+    <li>The CSS font-size property defines the text size to be used.</li>
+
+    <li>The CSS border property defines a border around an HTML element.</li>
+
+    <li>The CSS padding property defines a padding (space) between the text and the border.</li>
+
+    <li>The CSS margin property defines a margin (space) outside the border. </li></ul>
+
+<p>and there are many more properties that we will explain throughout the page
+</p>
+</code>
+</section>
+
+<section class="main-section" id="Position_Property">
+	<header>Position Property</header>
+<code>
+	<p>The position Property
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:</p>
+<ul>
+<li>static</li>
+<li>relative</li>
+<li>fixed</li>
+<li>absolute</li>
+<li>sticky</li>
+</ul>
+<p>
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. They also work differently depending on the position value</p>
+</code>
+</section>
+
+
+<section class="main-section" id="Position_Relative">
+	<header>Position Relative</header>
+<code>
+	<p>An element with position: relative; is positioned relative to its normal position.
+
+Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element. </p>
+</article>
+</section>
+
+<section class="main-section" id="Position_Static">
+	<header>Position Static</header>
+<code>
+	<p> HTML elements are positioned static by default.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+</code>
+</section>
+
+<section class="main-section" id="Position_Fixed">
+	<header>Position Fixed</header>
+<code>
+	<p> An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+
+A fixed element does not leave a gap in the page where it would normally have been located.
+
+Notice the fixed element in the lower-right corner of the page. </p>
+</code>
+</section>
+
+<section class="main-section" id="Position_Absolute">
+	<header>Position Absolute</header>
+<code>
+	<p> An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.</p>
+</code>
+</section>
+
+<section class="main-section" id="Position_Sticky">
+	<header>Position Sticky</header>
+<code>
+	<p>An element with position: sticky; is positioned based on the user's scroll position.
+
+A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). </p>
+</code>
+</section>
+
+<section class="main-section" id="Display_Property">
+	<header>Display Property</header>
+<code>
+	<p> The CSS display property specifies whether an element is treated as a block or inline element and the layout used by its children, such as flow layout, grid, or flex.
+</p>
+<p>
+Formally, the display property sets the internal and external display types of an element. The external type establishes the participation of an element in the flow layout; the inner type sets the layout of the children. Some display values are fully defined with their own specifications</p>
+
+
+<p>La propiedad display se especifica mediante valores de palabras clave. Los valores de palabras clave se agrupan en seis categorías:</p>
+<ul> 
+<lI> display-outside</li>
+<lI> display-inside</li>
+<lI> display-listitem</li>
+<lI> display-internal</li>
+<lI> display-box</li>
+<lI> display-legacy</li>
+</ul>
+<p>
+En la actualidad, es mejor especificar display utilizando una sola palabra clave; aunque las últimas especificaciones permiten combinar algunas palabras clave, esto aún no está bien soportado por los navegadores.</p>
+</code>
+</section>
+
+<section class="main-section"id="Display_Block">>
+	<header>Display Block</header>
+<code>
+	<p>Displays an element as a block element . It starts on a new line, and takes up the whole width </p>
+	<p>Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values </p>
+	<p> display : inline
+The element appears inline for example within a block element.
+When an inline element is between two block elements, the inline element behaves like an anonymous block, of minimum width (i.e. the width of the text inside this element.</p>
+<p>display : none
+It is used to hide an element.</p>
+<p>display : list-item
+The element behaves like a list element. which means that it will have a vignette</p>
+<p>display : table | table-row | table-cell
+The element will behave like a table. Nested elements should be displayed as elements</p>
+
+
+</code>
+</section>
+
+<section class="main-section" id="Display_Flex">>
+	<header>Display Flex</header>
+<code>
+	<p>The Flexible Box Module, commonly called flexbox, was designed as a one-dimensional layout model, and as a method that can help distribute space between interface items and improve alignment capabilities. This article takes a look at the main features of flexbox, which we'll explore in greater detail in the rest of these guides.</p>
+	<p>The main axis is defined by flex-direction, which has four possible values:
+
+row
+row-reverse
+column
+column-reverse
+If we choose row or row-reverse, the main axis will run along the row according to the direction of the line. </p>
+<p>Choosing column or column-reverse will cau_e the main axis to run from the top edge of the page to the bottom — depending on the direction of the block.</p>
+</code>
+</section>
+
+<section class="main-section" id="Display_Grid">
+	<header>Display Grid</header>
+<code>
+	<p> CSS Grid layout contains layout features aimed at web application developers. The CSS grid can be used to achieve many different layouts. It is also notable for allowing a page to be divided into main areas or regions, for defining the relationship in terms of size, position and layers between parts of a control built from HTML primitives.
+
+Like tables, the grid layout allows an author to align elements in columns and rows. However, with CSS grid, many more layouts are possible and much easier than with tables. For example, the child elements of a grid container could be positioned to overlap and overlap, similar to positioned elements in CSS.</p>
+<p>And have a lot of propertys:</p>
+<ul>
+	<li>grid-template-columns</li>
+	<li>grid-template-rows</li>
+	<li>grid-template-areas</li>
+	<li>grid-auto-columns</li>
+	<li>grid-auto-rows</li>
+	<li>gap</li>
+	<li>column-gap</li>
+</ul>
+<p>among other</p>
+</code>
+</section>
+ 
+<section class="main-section" id="Media_Queries">
+	<header>Media Queries</header>
+<code>
+	<p>Media queries are useful when you want to modify your web page or apply based on device type (such as a printer or display) or specific features and parameters (such as screen resolution or browser viewport width). Use for: </p>
+	<ul>
+		<li>Apply conditional styles</li>
+		<li>Indicate specific media in elements and other HTML elements</li>
+		<li>Test and monitor media states using javascript methods </li>
+	</ul>
+</code>
+</section>
+
+<section class="main-section" id="Reference">
+	<header>Reference</header>
+<code>
+	<ul>
+		<li>All the information is taken from multiple websites</li>
+	</ul>
+	</code>
+</section>
+
+
+
+
+
+
+</main>
+</body>
+</html>
